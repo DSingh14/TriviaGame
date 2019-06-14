@@ -1,0 +1,41 @@
+body{
+    background-image: url("../images/pexels-photo.jpg");
+    width: 960px;
+}
+.title {
+    width: 960px;
+    font-size: 60px;
+    font-style: oblique;
+    text-align: center;
+    color: azure;
+    margin-top: 30px;
+    margin-left: 20%; 
+}
+#question{
+  
+    font-size: 70px;
+    font-style: oblique;
+    text-align: center;
+    color: azure;
+    margin-top: 30px;
+    margin-left: 20%; 
+    
+}
+#button{
+margin-left: 40%;
+text-align: center;
+font-size: 35px;
+background-color: azure;
+}
+
+.btn-trivia{
+ display: block; 
+}
+#countdown {
+    width: 300px;
+margin-right: 20%;
+text-align: left;
+font-size: 20px;
+background-color: azure;
+
+}
