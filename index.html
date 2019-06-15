@@ -24,11 +24,11 @@
     <!-- // Timer and start button -->
     <div class="Timer">
         <div class="row">
-            <div class="col-md-12">
-                <p class="lead btn btn-lg btn-danger" id="game-start">Start</p>
-                <div class="col-lg-4 col-lg-offset-4 text-center">
-                    <p id="countdown">Time Remaining:<span id="timer"></span></p>
-                </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <p class="lead btn btn-lg btn-danger fixed-bottom" id="countdown">Time Remaining:<span
+                        id="timer"></span></p>
+                <div class="col-md-4"></div>
             </div>
         </div>
         <!-- container for question and answer -->
@@ -40,16 +40,25 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-10">
                 <div id="button" data-toggle="buttons">
 
                 </div>
             </div>
         </div>
         <!-- Done Button -->
-        <div>
-            <p class="lead btn btn-lg btn-danger" id="game-done">Done
-            </p>
+        <div class="row">
+            <div id="quizImage" class="col-md-2">
+                <img src="./assets/images/quiz_image.png" class="rounded mx-auto d-block" alt="...">
+            </div>
+            <div class="col-md-4">
+                <p class="lead btn btn-lg btn-danger fixed-bottom" id="game-start"><strong>Start</strong></p>
+            </div>
+            <div class="col-md-4">
+                <p class="lead btn btn-lg btn-danger fixed-bottom" id="game-done"><strong>Done</strong>
+                </p>
+            </div>
+            <!-- <div class="col-md-2"></div> -->
         </div>
     </div>
 
@@ -58,20 +67,15 @@
     <div class="results">
         <div class="row">
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <p class="lead2" id="correctScore">Correct Answers:</p>
-                    </div>
-                </div>
+                <p class="lead btn btn-lg btn-danger fixed-bottom" id="correctScore"><strong>Correct Answers: </strong>
+                </p>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <p class="lead2" id="wrongScore"> Incorrect Answers:</p>
-                    </div>
-                </div>
+                <p class="lead btn btn-lg btn-danger fixed-bottom" id="wrongScore"> <strong>Incorrect Answers: </strong>
+                </p>
             </div>
         </div>
+    </div>
     </div>
 
 

@@ -99,7 +99,7 @@ $(document).ready(function () {
         for (var i = 0; i < answersArray.length; i++) {
             var button = $("<button>");
             button.text(answersArray[i]);
-            button.addClass("btn btn-success btn-block btn-trivia");
+            button.addClass("btn btn-primary btn-lg  shadow p-3 mb-5 bg-secondary rounded btn-trivia");
             button.attr("data-answer", answersArray[i])
             button.attr("data-correctanswer", correctAnswer)
             $("#button").append(button);

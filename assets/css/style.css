@@ -7,35 +7,84 @@ body{
     font-size: 60px;
     font-style: oblique;
     text-align: center;
-    color: azure;
+    color:  #74B612;
     margin-top: 30px;
     margin-left: 20%; 
 }
 #question{
-  
-    font-size: 70px;
+    font-size: 200px;
     font-style: oblique;
     text-align: center;
     color: azure;
     margin-top: 30px;
-    margin-left: 20%; 
-    
+    margin-left: 20%;  
 }
 #button{
-margin-left: 40%;
+margin-left: 70%;
 text-align: center;
 font-size: 35px;
-background-color: azure;
+
 }
 
 .btn-trivia{
+ width: 100%;
  display: block; 
+ font-size: 80%;
+ margin-bottom: 10px;
+ background-color: none;
 }
 #countdown {
     width: 300px;
-margin-right: 20%;
-text-align: left;
-font-size: 20px;
-background-color: azure;
-
+    margin-bottom: 3%;
+    margin-left: 75%;
+    color: azure;
+    background-color: #74B612;
+    border: #0C3506;
+    font: 24px;   
 }
+#game-done{
+    width: 600px;
+    margin-bottom: 3%;
+    margin-left: 28%;
+    color: azure;
+    background-color: #74B612;
+    border: #0C3506;
+    font: 24px;   
+}
+#quizImage{
+max-width: 30%;
+max-height: 5%;
+margin-left: 40%;
+margin-top: 5%;
+}
+#game-start{
+    width: 200px;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    color: azure;
+    background-color: #74B612;
+    border: #0C3506;
+    font: 24px;   
+    }
+
+    #correctScore{
+        width: 300px;
+        margin-bottom: 3%;
+        margin-left: 25%;
+        color: azure;
+        background-color: #74B612;
+        border: #0C3506;
+        font: 24px;       
+        }
+
+
+    #wrongScore {
+     width: 300px;
+    margin-bottom: 3%;
+    margin-left: 58%;
+    color: azure;
+    background-color: #74B612;
+    border: #0C3506;
+    font: 24px;   
+    }
+    
